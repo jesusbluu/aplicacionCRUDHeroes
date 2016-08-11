@@ -1,0 +1,109 @@
+@import url("normalize.css");
+
+
+body, html{
+	background: #EEE;
+	text-align: center;
+}
+
+#logo{
+	font-family: "Lato", sans-serif;
+	font-size: 85px;
+	line-height: 1px;
+}
+
+div{
+	font-family: "Open Sans";
+}
+
+.insertar-class, .editar, .eliminar, .cancelar{
+	color: white;
+	border: thin solid silver;
+	background: #34b3a0;
+	padding: .50em .80em;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+.imagenes{
+	width: 200px;
+	height: 300px;
+}
+
+table{
+	width: 80%;
+	background: black;
+	border: thin solid silver;
+	color: white;
+	margin: 3em auto;
+}
+
+td{
+	color: black;
+	background: white;
+	border: thin solid silver;
+}
+
+#logo-banner{
+	background-image: url("../img/super-heroes.png");
+	background-size: 500px; 
+	width: 500px;
+	height: 300px;
+	margin: 1.8em auto;
+}
+
+#precarga, #respuesta{
+	display: none;
+}
+
+.error, .exito {
+	background: red;
+	color: white;
+	padding: 1em;
+	width: 50%;
+	margin: 2em auto;
+}
+
+.exito{
+	background: green;
+}
+
+[data-botones] {
+	color: white;
+    border: 0;
+    margin: 10px;
+}
+
+form{
+	width: 50%;
+	margin: auto;
+}
+
+fieldset{
+	border: thin solid black;
+	margin: auto;
+}
+
+.paginacion a, .actual{
+	color: #EC673A;
+	font-weight: bold;
+	font-size: 1.5rem;
+	padding: 0.5rem;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.paginacion a:hover, .actual{
+	color: #1C5F81;
+}
+
+.actual{
+	font-size: 3rem;
+}
+
+textarea, input{
+	font-family: "Open Sans";
+}
